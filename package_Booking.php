@@ -140,7 +140,7 @@ transform: scale(1.15);
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="Transportation.php">Transport</a>
+      <a class="nav-link active" href="Transportation.php">Transport</a>
     </li>
         
 
@@ -165,7 +165,7 @@ transform: scale(1.15);
     </li>
     
      <li class="nav-item">
-      <a class="nav-link active" href="package.php">Package</a>
+      <a class="nav-link" href="package.php">Package</a>
     </li>
    
      <li class="nav-item">
@@ -214,8 +214,8 @@ transform: scale(1.15);
     </li>
   </ul>
 </nav>
-</div><center>
-<div style="background-color: #E0E6F8; width: 50% "> <br><h1><u> Booking for Package</u></h1>    <br /><br>
+</div>
+<div style="background-color: #E0E6F8; width: 60% "> <br><h1><u> Booking for Package</u></h1>    
                                     
 <form   id="add_meal" method="POST" action="package_BookingBack.php" enctype="multipart/form-data">
 
@@ -225,8 +225,7 @@ transform: scale(1.15);
      <input class="w3-input w3-border" name="email" type="text" placeholder=" Email"  id="email"></div>   
      <br />
      <div class="form-group">
-              <label class="control-label col-sm-4" for="pakageType">
-              Package Type :- &nbsp&nbsp&nbsp </label> 
+              <label class="control-label col-sm-4" for="pakageType">Package Type :- &nbsp&nbsp&nbsp </label> 
               <div class="col-sm-10">
                 <select name="pakageType" style="width:172px">
                     <option value="family" > Family</option>
@@ -242,19 +241,18 @@ transform: scale(1.15);
      <input class="w3-input w3-border" name="phoneNum" type="text" placeholder="Phone Number"  id="phoneNum"></div>   
      <br />
 <div class="w3-padding">
-   <input type="text" name="startDate" class="w3-input w3-border" date="" data-date-format="yyyy-mm-dd" placeholder="0000-00-00" required>
-     <br />
+     <input class="w3-input w3-border" name="startDate" type="text" placeholder="Start Date"  id="startDate"></div>   
      <br />
 
 <div class="w3-row-padding w3-margin-bottom">   
 <div class="w3-half">
-<input type="submit" class="w3-btn w3-green w3-block " name="register" value="Booking">
+<input type="submit" class="w3-btn w3-green w3-block " name="meal_add" value="Booking">
                                                 </div> <br />
 <div class="w3-half">
 <input type="reset" class="w3-btn w3-red w3-block " name="meal-cancel" value="Cancel">
                                                 </div>                              
                                             </div>
-                                                    <br /><br />            
+                                                                
                                         </form>
                                     </div><br /><br />
                                             <div id="result"></div>
@@ -264,14 +262,7 @@ transform: scale(1.15);
                         </div> 
                     </div>  
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script>
-  $('.date').datepicker({
-    format: 'yyyy-mm-dd',
-  })
-  </script>
+
 
 
 <footer>

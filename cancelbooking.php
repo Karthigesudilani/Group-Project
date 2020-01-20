@@ -250,13 +250,12 @@ transform: scale(1.15);
                                 <button type="submit" class="btn btn-info btn-block">Clear
                                 </button>
                                 </from>
-                              </div></div>        </div>
-    </div></div></div></td></tr></table>
-</div></div>
+                              </div></div></form></b></center></div></div></div></div>
 
 
 <footer>
-
+  <div class="container">
+ 
     <div class="footer" id="footer">
  
         <div class="container">

@@ -273,7 +273,7 @@ transform: scale(1.15);
 
           <div class="container">
             <center><div class="col-md-6 col-sm-6 alert-info"><br />
-                            <h3> Customer Registration Form</h3>
+                            <h3> Registration Form</h3>
                            
                     </div></center>
               <p>Please fill in this form to create an account.</p>                             

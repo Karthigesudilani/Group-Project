@@ -200,9 +200,7 @@ re = /[a-z]/;
 
                                <div class="input-group">
      <span class="input-group-addon" style="color:gray">Leave Date  :-    </span>
-      <input type="text" name="date" class="w3-input w3-border" date="" data-date-format="yyyy-mm-dd" placeholder="0000-00-00" required> 
-     
-     
+      <input id="date" type="text" class="form-control" name="date" placeholder="Date" required autofocus> </div>
       <br>
 
                                <div class="input-group">
@@ -221,16 +219,6 @@ re = /[a-z]/;
                         </form></center>
 <br /><br /><br />
                       </div></div></div></div></div></div>  
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script>
-  $('.date').datepicker({
-    format: 'yyyy-mm-dd',
-  })
-  </script>
-
 <footer>
  
     <div class="footer" id="footer">
